@@ -5,7 +5,7 @@ PHP 8.0.8<br>
 Laravel / Passport> = 10.1<br>
 Mysql 8.0.26<br>
 
-php artisan migrate:refresh --seed
+php artisan migrate:refresh --seed<br>
 php artisan passport:client --personal
 
 - http://localhost/api/register
