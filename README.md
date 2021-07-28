@@ -31,15 +31,21 @@ php artisan passport:client --personal
 
 ## Database
 
-
+![Development](https://github.com/cesarol8/vetcheck/blob/master/database.png?raw=true)
                     
 
 
 
 ## Endpoints
 
-- http://localhost/api/register
-- http://localhost/api/login
+- http://localhost/api/register <br>
+    *name <br>
+    *email <br>
+    *password <br>
+    *password_confirmation <br>
+- http://localhost/api/login <br>
+    *email <br>
+    *password <br>
 - Copy Token to use in postman
 - http://localhost/api/owner (GET,POST,PUT,DELETE)
 - http://localhost/api/pet   (GET,POST,PUT,DELETE)
